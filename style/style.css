@@ -118,3 +118,9 @@ nav ul li a:hover::after{
     color: #909090;
     font-weight: 700;
 }
+
+.hero-socialMedia i{
+    margin-top: 50px;
+    margin-right: 15px;
+    font-size: 2.5rem;
+}
