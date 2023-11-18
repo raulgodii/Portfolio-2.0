@@ -351,3 +351,114 @@ footer{
 .social-media-icon:hover{
     transform: scale(1.2);
 }
+
+/* ---------SECTION - PORTFOLIO--------- */
+.section-portfolio{
+    background-color: #D7D7D7;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.portfolio-articles{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.portfolio-articles article{
+    width: 33.3333%;
+    background-image: url('../assets/ejemplo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.portfolio-article-hover{
+    font-family: Montserrat;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    transition: 0.4s;
+}
+.portfolio-articles article:hover .portfolio-article-hover{
+    opacity: 1;
+}
+
+.portfolio-article-hover p{
+    font-weight: 100;
+}
+
+.portfolio-article-hover a{
+    text-decoration: none;
+    color: white;
+    border-right: 3px solid white;
+    border-left: 3px solid white;
+    padding: 5px 10px;
+    letter-spacing: 3px;
+    position: relative;
+    background: linear-gradient(to right, rgb(255, 255, 255) 100%, transparent 100%) no-repeat;
+    background-size: 0;
+    background-position: center;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.portfolio-article-hover a:hover{
+    color: #000000;
+    background-size: 100%;
+}
+
+.portfolio-title{
+    width: 100%;
+    height: 100%;
+    --color: rgba(114, 114, 114, 0.3);
+    background-color: #1A1A1A;
+    background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+        linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
+    background-size: 55px 55px;
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.portfolio-title .title-section{
+    color:white;
+    border: 4px solid white;
+    margin: 50px;
+}
+
+.portfolio-articles .article1{
+    background-image: url('../assets/a1.png');
+}
+
+.portfolio-articles .article2{
+    background-image: url('../assets/a2.png');
+}
+
+.portfolio-articles .article3{
+    background-image: url('../assets/a3.png');
+}
+
+.portfolio-articles .article4{
+    background-image: url('../assets/a4.png');
+}
+
+.portfolio-articles .article5{
+    background-image: url('../assets/a5.png');
+}
+
+.portfolio-articles .article6{
+    background-image: url('../assets/a6.png');
+}
