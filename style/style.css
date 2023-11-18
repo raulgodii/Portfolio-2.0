@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: raleway;
+    
 }
 
 html{
@@ -20,6 +21,7 @@ header{
     justify-content: space-between;
     width: 100%;
     height: 10vh;
+    font-family: raleway;
 }
 
 .logo img{
@@ -86,6 +88,7 @@ nav ul li a:hover::after{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: raleway;
 }
 
 .hero-p1{
@@ -125,3 +128,84 @@ nav ul li a:hover::after{
     margin-right: 15px;
     font-size: 2.5rem;
 }
+
+/* ---------SECTION - ABOUT ME--------- */
+.section-aboutme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Montserrat;
+    background-color: #D7D7D7;
+}
+
+.title-section{
+    border: 4px solid black;
+    text-align: center;
+    width: 220px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    margin: 20px;
+    padding: 10px 0;
+    font-size: 0.99rem;
+    font-family: Montserrat;
+}
+
+.aboutme-element{
+    position: relative;
+    font-family: Open Sans;
+    width: 30%;
+    margin: 50px;
+}
+
+.aboutme-element h3{
+    margin: 10px 0;
+}
+
+.aboutme-element p{
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+
+.aboutme-element i{
+    position: absolute;
+    font-size: 3rem;
+    left: -30px;
+    top: -15px;
+    opacity: 0.07;
+}
+
+.aboutme-elements-horizontal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+/* ---------SECTION - FOOTER--------- */
+footer{
+    background-color: #1A1A1A;
+    color: white;
+    font-family: Montserrat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+    gap: 15px;
+}
+
+.footer-back{
+    letter-spacing: 5px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.footer-socialMedia i{
+    font-size: 2rem;
+    margin: 0px 10px;
+}
+
+.footer-copyright{
+    font-family: Open Sans;
+}
+
