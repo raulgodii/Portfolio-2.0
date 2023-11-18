@@ -195,9 +195,19 @@ footer{
 }
 
 .footer-back{
-    letter-spacing: 5px;
     font-size: 0.7rem;
     text-align: center;
+}
+
+.footer-back-text{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    transition: 0.3s;
+}
+
+.footer-back-text:hover{
+    letter-spacing: 5px;
 }
 
 .footer-socialMedia i{
@@ -209,3 +219,18 @@ footer{
     font-family: Open Sans;
 }
 
+.footer-back i{
+    transition: 0.3s;
+}
+
+.footer-back i:hover{
+    transform: scale(1.2);
+}
+
+.social-media-icon{
+    transition: 0.3s;
+}
+
+.social-media-icon:hover{
+    transform: scale(1.2);
+}
