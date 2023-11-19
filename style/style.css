@@ -816,6 +816,9 @@ footer{
         background-color: rgba(0, 0, 0, 0.7);
     }
     
+    .skills-container{
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 750px) {
