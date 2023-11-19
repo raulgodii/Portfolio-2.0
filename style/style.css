@@ -590,7 +590,7 @@ footer{
     font-family: Open Sans;
     font-size: 0.7rem;
     text-align: center;
-    margin: 40px;
+    margin-bottom: 40px;
 }
 
 .card {
@@ -610,7 +610,7 @@ footer{
     width: 100%;
 }
 
-.inputBox input {
+.inputBox input, .inputBox textarea {
     width: 100%;
     padding: 5px;
     outline: none;
@@ -621,6 +621,10 @@ footer{
     border-left: 3px solid #000;
     border-bottom: 3px solid #000;
     transition: 0.1s;
+}
+
+.inputBox textarea{
+    resize: none;
 }
 
 .inputBox span {
@@ -638,8 +642,11 @@ footer{
 }
 
 .inputBox input:valid~span,
-.inputBox input:focus~span {
-    transform: translateX(10%) translateY(-15px);
+.inputBox input:focus~span,
+.inputBox textarea:valid~span,
+.inputBox textarea:focus~span
+ {
+    transform: translateX(10px) translateY(-23px);
     font-size: 0.8em;
     padding: 5px 10px;
     background: #000;
@@ -649,14 +656,16 @@ footer{
 }
 
 .inputBox input:valid,
-.inputBox input:focus {
+.inputBox input:focus,
+.inputBox textarea:valid,
+.inputBox textarea:focus {
     border: 3px solid #000;
 }
 
 .enter {
     height: 45px;
     width: 100px;
-    border: 2px solid #000;
+    border: 3px solid #000;
     cursor: pointer;
     background-color: transparent;
     transition: 0.5s;
@@ -664,6 +673,8 @@ footer{
     font-size: 10px;
     letter-spacing: 2px;
     margin-bottom: 1em;
+    font-family: Montserrat;
+    font-weight: 700;
 }
 
 .enter:hover {
