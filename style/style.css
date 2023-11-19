@@ -822,6 +822,10 @@ footer{
     .skills-container{
         width: 100%;
     }
+
+    .review-element{
+        margin: 95px 0 50px 0;
+    }
 }
 
 @media only screen and (max-width: 750px) {
