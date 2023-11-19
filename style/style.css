@@ -692,6 +692,7 @@ footer{
     margin-bottom: 1em;
     font-family: Montserrat;
     font-weight: 700;
+    color: #000;
 }
 
 .enter:hover {
@@ -803,7 +804,7 @@ footer{
     .portfolio-articles article{
         width: 50%;
     }
-
+review-element
     .skill-element{
         width: 70px;
         height: 70px;
