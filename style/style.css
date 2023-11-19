@@ -496,6 +496,7 @@ footer{
     background-repeat: no-repeat;
     height: 300px;
     border: 1px solid white;
+    border-collapse: collapse;
 }
 
 .portfolio-article-hover{
