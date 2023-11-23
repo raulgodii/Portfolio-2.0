@@ -72,6 +72,10 @@ nav ul li a:hover::after{
     width: 0;
 }
 
+.menu-checkbox{
+    display: none;
+}
+
 .button-ContactMe{
     background-color: white;
     color: black;
@@ -322,8 +326,8 @@ nav ul li a:hover::after{
     height: 100%;
     border-radius: 50%;
     background: conic-gradient(
-        #000000 0% 65%,   /* Color for the completed progress */
-        #ecf0f1 65% 100%   /* Color for the remaining progress */
+        #ecf0f1 0% 65%,   /* Color for the completed progress */
+        #000000 65% 100%   /* Color for the remaining progress */
     );
     display: flex;
     align-items: center;
@@ -333,57 +337,57 @@ nav ul li a:hover::after{
 
 .progress-container.c{
     background: conic-gradient(
-        #000000 0% 60%,   /* Color for the completed progress */
-        #ecf0f1 60% 100%   /* Color for the remaining progress */
+        #ecf0f1 0% 60%,   /* Color for the completed progress */
+        #33558e 60% 100%   /* Color for the remaining progress */
     );
 }
 
 .progress-container.html{
     background: conic-gradient(
-        #000000 0% 100%,   /* Color for the completed progress */
-        #000000 100% 101%   /* Color for the remaining progress */
+        #ff8000 0% 101%,   /* Color for the completed progress */
+        #ecf0f1 100% 101%   /* Color for the remaining progress */
     );
 }
 
 .progress-container.css{
     background: conic-gradient(
-        #000000 0% 80%,   /* Color for the completed progress */
-        #ecf0f1 80% 100%   /* Color for the remaining progress */
+        #ecf0f1 0% 20%,   /* Color for the completed progress */
+        #1458cc 20% 100%   /* Color for the remaining progress */
     );
 }
 
 .progress-container.js{
     background: conic-gradient(
-        #000000 0% 70%,   /* Color for the completed progress */
-        #ecf0f1 70% 100%   /* Color for the remaining progress */
+        #ecf0f1 0% 24%,   /* Color for the completed progress */
+        rgb(204, 198, 20) 24% 100%   /* Color for the remaining progress */
     );
 }
 
 .progress-container.java{
     background: conic-gradient(
-        #000000 0% 75%,   /* Color for the completed progress */
-        #ecf0f1 75% 100%   /* Color for the remaining progress */
+        #ecf0f1 0% 27%,   /* Color for the completed progress */
+        #e40707 27% 100%   /* Color for the remaining progress */
     );
 }
 
 .progress-container.wordpress{
     background: conic-gradient(
-        #000000 0% 50%,   /* Color for the completed progress */
-        #ecf0f1 50% 100%   /* Color for the remaining progress */
+        #ecf0f1 0% 50%,   /* Color for the completed progress */
+        #2d60b9 50% 100%   /* Color for the remaining progress */
     );
 }
 
 .progress-container.sql{
     background: conic-gradient(
-        #000000 0% 55%,   /* Color for the completed progress */
-        #ecf0f1 55% 100%   /* Color for the remaining progress */
+        #ecf0f1 0% 45%,   /* Color for the completed progress */
+        #0e429a 45% 100%   /* Color for the remaining progress */
     );
 }
 
 .progress-container.php{
     background: conic-gradient(
-        #000000 0% 65%,   /* Color for the completed progress */
-        #ecf0f1 65% 100%   /* Color for the remaining progress */
+        #ecf0f1 0% 55%,   /* Color for the completed progress */
+        #3282cd 55% 100%   /* Color for the remaining progress */
     );
 }
 
@@ -790,10 +794,6 @@ footer{
 
     .hero-hi{
         margin-bottom: 10px;
-    }
-
-    .menu-checkbox{
-        display: none;
     }
 
     .menu-checkbox:checked + nav{
