@@ -1,4 +1,4 @@
-# Raul Godinez Portfolio 2.0
+# Raul Gonzalez Portfolio 2.0
 > Welcome to my updated portfolio! This repository showcases my skills, projects, and experiences as a software developer. Feel free to explore and learn more about me.
 
 - Table of Contents
